@@ -30,7 +30,7 @@ export default function Home() {
           </p>
           <p className="my-5  text-neutral-200 text-xl">
             I'm a Full Stack Software Engineer specializing in <b>C++, React and Next.js</b>. I have
-            a Undergraduate Degree in Computer Engineering from the The University of Alabama in
+            a Undergraduate Degree in Computer Engineering from The University of Alabama in
             Huntsville. And I'm currently working on my <b>Masters in Computer Science</b> from The
             University of Alabama in Huntsville.
           </p>
