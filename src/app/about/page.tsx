@@ -2,7 +2,7 @@ import { GitHubIcon, ArrowIcon, LinkedInIcon, DiscordIcon } from '@/components/i
 import Link from 'next/link';
 export default function AboutPage() {
   return (
-    <section className="pb-64">
+    <section className="pb-32">
       <div className="flex justify-between text-transparent">
         <div className="bg-clip-text bg-gradient-to-br from-blue-300 to-purple-500">
           <h1 className="text-5xl font-mono leading-none pb-4 font-extrabold sm:text-[2rem] lg:text-[3rem]">
@@ -18,9 +18,9 @@ export default function AboutPage() {
           <Link href={'https://www.trideum.com/'} className="font-bold text-blue-400">
             Trideum
           </Link>
-          , where I build tools for engineers, assist on the design and creating of{' '}
-          <b>Modeling and Simulation</b> software to assist in the testing of future military
-          technology, and own the frontend architecture of many of our applications.
+          , where I build tools for engineers, assist with the design and creation of{' '}
+          <b>Modeling and Simulation</b> software for testing future military technology, and own
+          the frontend of many of our applications.
         </p>
         <hr />
         <p className="my-4">
@@ -50,8 +50,7 @@ export default function AboutPage() {
         </p>
         <p className="mb-8">
           Keeping up with scientific research is always something I try to do. I enjoy seeing the
-          progress that it happening in the world and being aware of what is possibly
-          misinformation.
+          progress that it happening in the world.
         </p>
       </div>
     </section>

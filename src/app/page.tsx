@@ -25,8 +25,8 @@ export default function Home() {
       <div className="pt-16">
         <div>
           <p className="my-5  text-neutral-200  text-2xl lg:text-4xl">
-            Hey, my name is Nathan. I'm a <b>Software Engineer at Trideum</b> where I build tool for
-            engineers and own the frontend architecture of many of our applications.
+            Hey, my name is Nathan. I'm a <b>Software Engineer at Trideum</b> where I build tools
+            for engineers and own the frontend of many of our applications.
           </p>
           <p className="my-5  text-neutral-200 text-xl">
             I'm a Full Stack Software Engineer specializing in <b>C++, React and Next.js</b>. I have
