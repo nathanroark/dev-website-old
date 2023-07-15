@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,10 +10,56 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      backgroundSize: {
+        'size-5': '5% 5% 5% 5%',
+        'size-10': '10% 10% 10% 10%',
+        'size-25': '25% 25%',
+        'size-50': '50% 50%',
+        'size-75': '75% 75%',
+        'size-100': '100% 100%',
+        'size-110': '110% 110%',
+        'size-125': '125% 125%',
+        'size-150': '150% 150%',
+        'size-200': '200% 200%',
+      },
+      backgroundPosition: {
+        'pos-polka': '-14% -20%',
+        '-pos-10': '-10% -20%',
+        '-pos-6': '-6% -18%',
+        '-pos-5': '-5% -10%',
+        '-pos-4': '-4% -8%',
+        'pos-0': '0% 0%',
+        'pos-25': '25% 25%',
+        'pos-50': '50% 50%',
+        'pos-75': '75% 75%',
+        'pos-100': '100% 100%',
+        'pos-200': '200% 200%',
+      },
+    },
+    patterns: {
+      opacities: {
+        100: '1',
+        80: '.80',
+        60: '.60',
+        40: '.40',
+        20: '.20',
+        10: '.10',
+        5: '.05',
+      },
+      sizes: {
+        1: '0.25rem',
+        2: '0.5rem',
+        4: '1rem',
+        6: '1.5rem',
+        8: '2rem',
+        16: '4rem',
+        20: '5rem',
+        24: '6rem',
+        32: '8rem',
       },
     },
   },
-  plugins: [],
-}
+  plugins: [require('tailwindcss-bg-patterns')],
+};
