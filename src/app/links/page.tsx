@@ -2,7 +2,7 @@ import { GitHubIcon, ArrowIcon, LinkedInIcon, DiscordIcon } from '@/components/i
 import Link from 'next/link';
 export default function AboutPage() {
   return (
-    <section className="pb-64">
+    <section className="pb-32">
       <div className="flex justify-between text-transparent">
         <div className="bg-clip-text bg-gradient-to-br from-blue-300 to-purple-500">
           <h1 className="text-5xl font-mono leading-none pb-4 font-extrabold sm:text-[2rem] lg:text-[3rem]">

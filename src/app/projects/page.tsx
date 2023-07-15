@@ -40,7 +40,7 @@ const projectsData = [
 
 export default function ProjectsPage() {
   return (
-    <section className="text-gray-300 pb-96 lg:px-24 xl:px-0   ">
+    <section className="text-gray-300 pb-32 lg:px-24 xl:px-0   ">
       <div className="flex justify-between text-transparent pb-8">
         <div className=" bg-clip-text  bg-gradient-to-br from-purple-400 via-pink-300 to-yellow-500">
           <h1 className="text-5xl font-mono leading-none pb-4  font-extrabold sm:text-[2rem] lg:text-[3rem] fon">

@@ -7,7 +7,7 @@ const gradientAtmosphere = 'bg-gradient-to-br ' + atmosphere;
 export default function ResumePage() {
   return (
     <section>
-      <div className="pb-96">
+      <div className="pb-32">
         <div className="flex justify-between gap-x-2 sm:gap-0 text-transparent">
           <div className={`w-fit md:w-1/2 lg:w-1/2  pb-4 bg-clip-text ${gradientAtmosphere}`}>
             <h1 className="text-5xl font-mono leading-none pb-4  font-extrabold sm:text-[2rem] lg:text-[3rem] ">

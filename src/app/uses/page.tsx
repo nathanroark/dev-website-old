@@ -5,7 +5,7 @@ export default function UsesPage() {
 
   return (
     <section className="w-full min-w-4xl">
-      <div className="pb-96">
+      <div className="pb-32">
         <div className="flex justify-between text-transparent ">
           <div className={`w-fit bg-clip-text  ${gradient} `}>
             <h1 className="text-5xl font-mono leading-none  font-extrabold sm:text-[2rem] lg:text-[3rem] ">
